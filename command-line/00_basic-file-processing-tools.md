@@ -16,6 +16,7 @@ A concise reference for everyday file/text processing on the command line.
 - `cut`: extract columns/fields. Examples: `cut -c1-10 file` (chars), `cut -d',' -f1-3 file` (CSV fields).
 - `uniq`: filter adjacent duplicate lines. Common with `sort`. Example: `sort file | uniq -c` (counts per unique line).
 - `file`: determine type of file. 
+
 Common pipeline: count and rank values
 ```
 sort items.txt | uniq -c | sort -nr   # frequency sorted descending
